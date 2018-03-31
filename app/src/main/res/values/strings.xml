@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TM</string>
+
+    <string name="app_welcome">Welcome Use TaskManage</string>
+
+    <string name="text_value">Hello 周爽!</string>
+
+    <string name="login_button">Click This</string>
+</resources>
