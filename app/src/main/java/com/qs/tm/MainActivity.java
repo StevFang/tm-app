@@ -6,8 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * 主画面
  */
