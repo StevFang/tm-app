@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">TM</string>
-
     <string name="app_welcome">Welcome Use TaskManage</string>
-
     <string name="text_value">Hello 周爽!</string>
+    <string name="next_button">进入系统</string>
 
-    <string name="login_button">Click This</string>
+    <string name="fragment_index">首页</string>
+    <string name="fragment_order">订单</string>
+    <string name="fragment_mine">我的</string>
 </resources>

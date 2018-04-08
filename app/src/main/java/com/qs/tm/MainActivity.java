@@ -1,5 +1,6 @@
 package com.qs.tm;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,14 +20,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        loginButton = findViewById(R.id.login_button);
-        loginButton.setOnClickListener(new LoginButtonClickListener());
+        loginButton = findViewById(R.id.next_button);
+        loginButton.setOnClickListener(new NextButtonClickListener());
     }
 
-    private class LoginButtonClickListener implements View.OnClickListener{
+    private class NextButtonClickListener implements View.OnClickListener{
         @Override
         public void onClick(View v) {
-            Toast.makeText(MainActivity.this,R.string.text_value,Toast.LENGTH_SHORT).show();
+            //Toast.makeText(MainActivity.this,R.string.text_value,Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, IndexActivity.class);
+            intent.putExtra("name", "斌斌");
+            intent.putExtra("content", "你好");
+            startActivity(intent);
         }
     }
 }
