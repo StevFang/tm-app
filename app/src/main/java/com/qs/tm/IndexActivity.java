@@ -1,9 +1,9 @@
 package com.qs.tm;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
 import com.qs.tm.fragment.FragmentIndex;
@@ -14,19 +14,19 @@ import com.qs.tm.view.BottomBar;
 /**
  * Created by fbin on 2018/4/8.
  */
-public class IndexActivity extends Activity {
+public class IndexActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_index);
+
         Intent intent = getIntent();
         if(intent != null){
             String name = intent.getStringExtra("name");
             String content = intent.getStringExtra("content");
             Toast.makeText(IndexActivity.this, name+","+content, Toast.LENGTH_SHORT).show();
         }
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_index);
 
         BottomBar bottomBar = findViewById(R.id.bottom_bar);
         bottomBar.setContainer(R.id.fl_container)
