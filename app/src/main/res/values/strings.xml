@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">TM</string>
     <string name="app_welcome">Welcome Use TaskManage</string>
-    <string name="text_value">Hello 周爽!</string>
+    <string name="text_value">Hello!</string>
     <string name="next_button">进入系统</string>
+
+    <!--登录页-->
+    <string name="account">账号</string>
+    <string name="account_placeholder">请输入账号/手机号/邮箱</string>
+    <string name="password">密码</string>
+    <string name="password_placeholder">密码</string>
+    <string name="login_button">登录</string>
+    <string name="login_failed">登录失败，账号或密码错误!</string>
+    <string name="sys_error">系统错误，请联系管理员!</string>
 
     <string name="fragment_index">首页</string>
     <string name="fragment_order">订单</string>

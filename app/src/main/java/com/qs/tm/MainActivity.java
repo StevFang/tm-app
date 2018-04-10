@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v) {
             //Toast.makeText(MainActivity.this,R.string.text_value,Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(MainActivity.this, IndexActivity.class);
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             intent.putExtra("name", "斌斌");
             intent.putExtra("content", "你好");
             startActivity(intent);

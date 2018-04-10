@@ -15,4 +15,7 @@
     <color name="colorLinkDark">#23527c</color>
     <color name="colorDefault">#fff</color>
     <color name="colorDefaultDark">#e6e6e6</color>
+
+    <color name="red_dark">#ffb52121</color>
+    <color name="red_light">#ffcd2222</color>
 </resources>
