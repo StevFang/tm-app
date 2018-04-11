@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.qs.tm.fragment.FragmentIndex;
 import com.qs.tm.fragment.FragmentMine;
-import com.qs.tm.fragment.FragmentOrder;
+import com.qs.tm.fragment.FragmentTask;
 import com.qs.tm.view.BottomBar;
 
 /**
@@ -35,7 +35,7 @@ public class IndexActivity extends AppCompatActivity {
                         getString(R.string.fragment_index),
                         R.drawable.item1_before,
                         R.drawable.item1_after)
-                .addItem(FragmentOrder.class,
+                .addItem(FragmentTask.class,
                         getString(R.string.fragment_order),
                         R.drawable.item2_before,
                         R.drawable.item2_after)

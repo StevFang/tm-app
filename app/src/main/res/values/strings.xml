@@ -14,6 +14,10 @@
     <string name="sys_error">系统错误，请联系管理员!</string>
 
     <string name="fragment_index">首页</string>
-    <string name="fragment_order">订单</string>
+    <string name="fragment_order">任务</string>
     <string name="fragment_mine">我的</string>
+
+    <!--任务页-->
+    <string name="task_name_default">任务名称</string>
+
 </resources>
