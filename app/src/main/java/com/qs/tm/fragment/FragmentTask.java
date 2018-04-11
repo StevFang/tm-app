@@ -23,12 +23,13 @@ public class FragmentTask extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        ListView listView = getActivity().findViewById(R.id.task_view);
+        View view = inflater.inflate(R.layout.fragment_task, container, false);
+        ListView listView = view.findViewById(R.id.task_view);
         initTasks();
-        TaskAdapter taskAdapter = new TaskAdapter(getContext(), R.layout.task_item, taskList);
+        TaskAdapter taskAdapter = new TaskAdapter(getActivity(), R.layout.task_item, taskList);
         listView.setAdapter(taskAdapter);
 
-        return LayoutInflater.from(getActivity()).inflate(R.layout.fragment_task, container, false);
+        return view;
     }
 
     private void initTasks() {

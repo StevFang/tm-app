@@ -35,7 +35,7 @@ public class TaskAdapter extends ArrayAdapter {
         View view;
         ViewHolder viewHolder;
         Task task = (Task) getItem(position);
-        if(convertView != null){
+        if(convertView == null){
             view = LayoutInflater.from(getContext()).inflate(resourceId, parent, false);
             viewHolder = new ViewHolder();
             viewHolder.taskCheckbox = view.findViewById(R.id.task_checkbox);
