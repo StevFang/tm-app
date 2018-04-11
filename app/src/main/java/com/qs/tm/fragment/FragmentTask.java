@@ -33,7 +33,7 @@ public class FragmentTask extends Fragment {
     }
 
     private void initTasks() {
-        for(int i=0; i<10; i++){
+        for(int i=0; i<50; i++){
             Task task = new Task();
             task.setTaskId(i);
             task.setTaskName("任务名称"+i);
