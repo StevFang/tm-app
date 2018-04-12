@@ -9,7 +9,11 @@ public class Task {
 
     private int taskId;
 
+    //任务名称
     private String taskName;
+
+    //任务简述
+    private String taskSketch;
 
     private String taskStartTime;
 
@@ -37,6 +41,14 @@ public class Task {
 
     public void setTaskName(String taskName) {
         this.taskName = taskName;
+    }
+
+    public String getTaskSketch() {
+        return taskSketch;
+    }
+
+    public void setTaskSketch(String taskSketch) {
+        this.taskSketch = taskSketch;
     }
 
     public String getTaskStartTime() {

@@ -37,6 +37,7 @@ public class FragmentTask extends Fragment {
             Task task = new Task();
             task.setTaskId(i);
             task.setTaskName("任务名称"+i);
+            task.setTaskSketch("任务简述简述简述简述"+i+"...");
             taskList.add(task);
         }
     }

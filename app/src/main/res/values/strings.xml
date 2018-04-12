@@ -19,5 +19,6 @@
 
     <!--任务页-->
     <string name="task_name_default">任务名称</string>
+    <string name="task_sketch_default">任务简述简述简述简述简述...</string>
 
 </resources>

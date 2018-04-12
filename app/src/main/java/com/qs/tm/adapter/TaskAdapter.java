@@ -40,6 +40,7 @@ public class TaskAdapter extends ArrayAdapter {
             viewHolder = new ViewHolder();
             viewHolder.taskCheckbox = view.findViewById(R.id.task_checkbox);
             viewHolder.taskName = view.findViewById(R.id.task_name);
+            viewHolder.taskSketch = view.findViewById(R.id.task_sketch);
             view.setTag(viewHolder);
         }else{
             view = convertView;
@@ -47,11 +48,13 @@ public class TaskAdapter extends ArrayAdapter {
         }
         viewHolder.taskCheckbox.setTag(task.getTaskId());
         viewHolder.taskName.setText(task.getTaskName());
+        viewHolder.taskSketch.setText(task.getTaskSketch());
         return view;
     }
 
     class ViewHolder{
         CheckBox taskCheckbox;
         TextView taskName;
+        TextView taskSketch;
     }
 }

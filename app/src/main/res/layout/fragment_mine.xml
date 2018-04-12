@@ -55,14 +55,12 @@
         android:layout_marginBottom="10dp"
         android:background="@color/colorDefault"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="15dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="设置"
-            android:textSize="15dp"
-            android:layout_marginBottom="10dp"/>
+            android:text="设置" />
 
     </LinearLayout>
 
@@ -72,14 +70,12 @@
         android:layout_marginBottom="10dp"
         android:background="@color/colorDefault"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="15dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="设置"
-            android:textSize="15dp"
-            android:layout_marginBottom="10dp"/>
+            android:text="设置"/>
 
     </LinearLayout>
 
@@ -89,14 +85,12 @@
         android:layout_marginBottom="10dp"
         android:background="@color/colorDefault"
         android:orientation="vertical"
-        android:padding="10dp">
+        android:padding="15dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="设置"
-            android:textSize="15dp"
-            android:layout_marginBottom="10dp"/>
+            android:text="设置"/>
 
     </LinearLayout>
 

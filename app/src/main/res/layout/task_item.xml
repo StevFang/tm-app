@@ -8,12 +8,30 @@
     <CheckBox
         android:id="@+id/task_checkbox"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
-    <TextView
-        android:id="@+id/task_name"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/task_name_default"/>
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_name_default"
+            android:textSize="12dp"/>
+
+        <TextView
+            android:id="@+id/task_sketch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/task_sketch_default"
+            android:textSize="10dp"
+            android:textColor="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
 
 </LinearLayout>
